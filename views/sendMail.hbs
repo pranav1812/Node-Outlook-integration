@@ -1,0 +1,21 @@
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Send Email</h1>
+    <form method="POST" enctype="x-www-form-urlencoded">
+    <div class="form-group">
+        <label for= "email" >Recipient Email</label> <span>(Only 1 address supported)</span>
+        <input class="form-control" name="rd-email" type="text" required >
+    </div>
+    <div class="form-group">
+        <label>Subject</label>
+        <input class="form-control" name="rd-subject" type="text" >
+    </div>
+    <div class="form-group mb-3">
+      <label>Body/Message</label>
+      <textarea class="form-control" name="rd-body" rows="3"></textarea>
+    </div>
+    </div>
+    <input class="btn btn-primary mr-2" type="submit" value="Go" />
+    </form>
+  </div>
+</div>
